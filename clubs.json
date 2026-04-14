@@ -7,7 +7,6 @@
       "logo_url": "1.png",
       "contact_email": "contact@utdnebula.com",
       "officers": ["Alim Mustafa", "John Doe", "Jane Smith"],
-      "tags": ["Technology", "Open Source", "Software"],
       "instagram_url": "https://www.instagram.com/utdnebula",
       "website_url": "https://utdnebula.com",
       "twitter_url": "https://twitter.com/utdnebula"
@@ -19,7 +18,6 @@
       "logo_url": "2.png",
       "contact_email": "sgda.utd@gmail.com",
       "officers": ["Chris Miller", "Sarah Jenkins", "Kevin Zhao"],
-      "tags": ["Gaming", "Development", "Art"],
       "instagram_url": "https://www.instagram.com/sgda_utd",
       "website_url": "https://utdsgda.com",
       "twitter_url": "https://twitter.com/sgda_utd"
@@ -31,7 +29,6 @@
       "logo_url": "3.png",
       "contact_email": "fintechutd@gmail.com",
       "officers": ["Michael Chen", "Emily Watson", "Robert Vance"],
-      "tags": ["Finance", "Technology", "Blockchain"],
       "instagram_url": "https://www.instagram.com/fintechutd",
       "website_url": "https://fintechutd.org",
       "twitter_url": "https://twitter.com/fintechutd"
@@ -43,7 +40,6 @@
       "logo_url": "4.jpg",
       "contact_email": "dsc.utdallas@gmail.com",
       "officers": ["Sanjay Gupta", "Maria Rodriguez", "Liam O'Connor"],
-      "tags": ["Data", "Python", "Analytics"],
       "instagram_url": "https://www.instagram.com/utd_dsc",
       "website_url": "https://utddatascience.com",
       "twitter_url": "https://twitter.com/utd_dsc"
@@ -55,7 +51,6 @@
       "logo_url": "5.jpg",
       "contact_email": "ais.utd@gmail.com",
       "officers": ["Alan Turing", "Grace Hopper", "Andrew Ng"],
-      "tags": ["AI", "Machine Learning", "Research"],
       "instagram_url": "https://www.instagram.com/ais_utd",
       "website_url": "https://aisutd.org",
       "twitter_url": "https://twitter.com/ais_utd"
@@ -67,7 +62,6 @@
       "logo_url": "6.png",
       "contact_email": "bakingcause@gmail.com",
       "officers": ["Martha Stewart", "Paul Hollywood", "Mary Berry"],
-      "tags": ["Service", "Baking", "Social"],
       "instagram_url": "https://www.instagram.com/bakingutd",
       "website_url": "https://bakingforacause.org",
       "twitter_url": "https://twitter.com/bakingutd"
@@ -79,7 +73,6 @@
       "logo_url": "7.png",
       "contact_email": "utdallas@180dc.org",
       "officers": ["Jordan Belfort", "Sheryl Sandberg", "Tim Cook"],
-      "tags": ["Consulting", "Business", "Volunteer"],
       "instagram_url": "https://www.instagram.com/180dc_utd",
       "website_url": "https://180dc.org/branch/utd",
       "twitter_url": "https://twitter.com/180dc_utd"
@@ -91,7 +84,6 @@
       "logo_url": "8.png",
       "contact_email": "akpsi.utd@gmail.com",
       "officers": ["Warren Buffet", "Indra Nooyi", "Satya Nadella"],
-      "tags": ["Business", "Professional", "Fraternity"],
       "instagram_url": "https://www.instagram.com/akpsi_utd",
       "website_url": "https://utdakpsi.com",
       "twitter_url": "https://twitter.com/akpsi_utd"
@@ -103,7 +95,6 @@
       "logo_url": "9.jpg",
       "contact_email": "awsutd@gmail.com",
       "officers": ["Jeff Bezos", "Andy Jassy", "Werner Vogels"],
-      "tags": ["Cloud", "AWS", "Infrastructure"],
       "instagram_url": "https://www.instagram.com/aws_utd",
       "website_url": "https://awsutd.com",
       "twitter_url": "https://twitter.com/aws_utd"
@@ -115,7 +106,6 @@
       "logo_url": "10.png",
       "contact_email": "ama.utd@gmail.com",
       "officers": ["Phil Kotler", "Seth Godin", "David Ogilvy"],
-      "tags": ["Marketing", "Creative", "Business"],
       "instagram_url": "https://www.instagram.com/ama_utd",
       "website_url": "https://amautd.com",
       "twitter_url": "https://twitter.com/ama_utd"
@@ -127,7 +117,6 @@
       "logo_url": "11.jpg",
       "contact_email": "contact@acmutd.co",
       "officers": ["Linus Torvalds", "Ada Lovelace", "Donald Knuth"],
-      "tags": ["CS", "Coding", "Events"],
       "instagram_url": "https://www.instagram.com/acmutd",
       "website_url": "https://acmutd.co",
       "twitter_url": "https://twitter.com/acmutd"
@@ -139,7 +128,6 @@
       "logo_url": "12.jpg",
       "contact_email": "wics.utd@gmail.com",
       "officers": ["Margaret Hamilton", "Anita Borg", "Reshma Saujani"],
-      "tags": ["Inclusion", "Women in Tech", "Mentorship"],
       "instagram_url": "https://www.instagram.com/wics_utd",
       "website_url": "https://wicsutd.co",
       "twitter_url": "https://twitter.com/wics_utd"
@@ -151,7 +139,6 @@
       "logo_url": "1.png",
       "contact_email": "csg.utd@gmail.com",
       "officers": ["Kevin Mitnick", "Edward Snowden", "Tsutomu Shimomura"],
-      "tags": ["Security", "Hacking", "Privacy"],
       "instagram_url": "https://www.instagram.com/csgutd",
       "website_url": "https://csgutd.co",
       "twitter_url": "https://twitter.com/csgutd"
@@ -163,7 +150,6 @@
       "logo_url": "2.png",
       "contact_email": "ieeeutd@gmail.com",
       "officers": ["Nikola Tesla", "Thomas Edison", "Claude Shannon"],
-      "tags": ["Engineering", "Hardware", "Robotics"],
       "instagram_url": "https://www.instagram.com/ieee_utd",
       "website_url": "https://ieeeutd.org",
       "twitter_url": "https://twitter.com/ieee_utd"
@@ -175,7 +161,6 @@
       "logo_url": "3.png",
       "contact_email": "mathclubutd@gmail.com",
       "officers": ["Leonhard Euler", "Isaac Newton", "Katherine Johnson"],
-      "tags": ["Math", "Theory", "Education"],
       "instagram_url": "https://www.instagram.com/mathclub_utd",
       "website_url": "https://utdmath.org",
       "twitter_url": "https://twitter.com/mathclub_utd"
@@ -187,7 +172,6 @@
       "logo_url": "4.jpg",
       "contact_email": "misclub.utd@gmail.com",
       "officers": ["Satya Nadella", "Ginni Rometty", "Marc Benioff"],
-      "tags": ["Business", "Information Systems", "Analytics"],
       "instagram_url": "https://www.instagram.com/misclub_utd",
       "website_url": "https://utdmis.com",
       "twitter_url": "https://twitter.com/misclub_utd"
@@ -199,7 +183,6 @@
       "logo_url": "5.jpg",
       "contact_email": "prehealth.utd@gmail.com",
       "officers": ["Elizabeth Blackwell", "Sanjay Gupta", "Gregory House"],
-      "tags": ["Medicine", "Pre-Health", "Science"],
       "instagram_url": "https://www.instagram.com/prehealth_utd",
       "website_url": "https://utdprehealth.org",
       "twitter_url": "https://twitter.com/prehealth_utd"
@@ -211,7 +194,6 @@
       "logo_url": "6.png",
       "contact_email": "robotics.utd@gmail.com",
       "officers": ["Rodney Brooks", "Cynthia Breazeal", "Marc Raibert"],
-      "tags": ["Engineering", "Robotics", "Hardware"],
       "instagram_url": "https://www.instagram.com/robotics_utd",
       "website_url": "https://utdrobotics.co",
       "twitter_url": "https://twitter.com/robotics_utd"
@@ -223,7 +205,6 @@
       "logo_url": "7.png",
       "contact_email": "sustain.utd@gmail.com",
       "officers": ["Greta Thunberg", "David Attenborough", "Jane Goodall"],
-      "tags": ["Environment", "Sustainability", "Social"],
       "instagram_url": "https://www.instagram.com/sustainable_utd",
       "website_url": "https://sustainableutd.org",
       "twitter_url": "https://twitter.com/sustainable_utd"
@@ -235,7 +216,6 @@
       "logo_url": "8.png",
       "contact_email": "chess.utd@gmail.com",
       "officers": ["Magnus Carlsen", "Hikaru Nakamura", "Beth Harmon"],
-      "tags": ["Games", "Strategy", "Social"],
       "instagram_url": "https://www.instagram.com/utd_chess",
       "website_url": "https://utdchess.com",
       "twitter_url": "https://twitter.com/utd_chess"
@@ -247,7 +227,6 @@
       "logo_url": "9.jpg",
       "contact_email": "isg.utdallas@gmail.com",
       "officers": ["Ray Dalio", "Cathie Wood", "Charlie Munger"],
-      "tags": ["Finance", "Investing", "Business"],
       "instagram_url": "https://www.instagram.com/isg_utd",
       "website_url": "https://utdisg.org",
       "twitter_url": "https://twitter.com/isg_utd"
@@ -259,7 +238,6 @@
       "logo_url": "10.png",
       "contact_email": "shpe.utd@gmail.com",
       "officers": ["Ellen Ochoa", "Luis von Ahn", "Albert Baez"],
-      "tags": ["Engineering", "Diversity", "Professional"],
       "instagram_url": "https://www.instagram.com/shpe_utd",
       "website_url": "https://shpeutd.org",
       "twitter_url": "https://twitter.com/shpe_utd"
@@ -271,7 +249,6 @@
       "logo_url": "11.jpg",
       "contact_email": "uxui.utd@gmail.com",
       "officers": ["Don Norman", "Julie Zhuo", "Dieter Rams"],
-      "tags": ["Design", "Technology", "UI/UX"],
       "instagram_url": "https://www.instagram.com/uxui_utd",
       "website_url": "https://utdux.design",
       "twitter_url": "https://twitter.com/uxui_utd"
@@ -283,7 +260,6 @@
       "logo_url": "12.jpg",
       "contact_email": "bmutd@gmail.com",
       "officers": ["Robert Langer", "Jennifer Doudna", "Francis Collins"],
-      "tags": ["Biology", "Engineering", "Research"],
       "instagram_url": "https://www.instagram.com/bioeng_utd",
       "website_url": "https://utdbioeng.org",
       "twitter_url": "https://twitter.com/bioeng_utd"
@@ -295,7 +271,6 @@
       "logo_url": "1.png",
       "contact_email": "mocktrial.utd@gmail.com",
       "officers": ["Ruth Bader Ginsburg", "Thurgood Marshall", "Atticus Finch"],
-      "tags": ["Law", "Public Speaking", "Competition"],
       "instagram_url": "https://www.instagram.com/utdmocktrial",
       "website_url": "https://utdmocktrial.org",
       "twitter_url": "https://twitter.com/utdmocktrial"
@@ -307,7 +282,6 @@
       "logo_url": "2.png",
       "contact_email": "tabletop.utd@gmail.com",
       "officers": ["Gary Gygax", "Matt Mercer", "Felicia Day"],
-      "tags": ["Gaming", "Social", "Tabletop"],
       "instagram_url": "https://www.instagram.com/utdtabletop",
       "website_url": "https://utdtabletop.com",
       "twitter_url": "https://twitter.com/utdtabletop"
@@ -319,7 +293,6 @@
       "logo_url": "3.png",
       "contact_email": "nsbe.utdallas@gmail.com",
       "officers": ["Katherine Johnson", "Lonnie Johnson", "Ursula Burns"],
-      "tags": ["Engineering", "Diversity", "Professional"],
       "instagram_url": "https://www.instagram.com/nsbe_utd",
       "website_url": "https://nsbeutd.org",
       "twitter_url": "https://twitter.com/nsbe_utd"
@@ -331,7 +304,6 @@
       "logo_url": "4.jpg",
       "contact_email": "esports.utd@gmail.com",
       "officers": ["Faker", "Tenz", "Pokimane"],
-      "tags": ["Gaming", "Esports", "Competition"],
       "instagram_url": "https://www.instagram.com/utdesports",
       "website_url": "https://utdesports.com",
       "twitter_url": "https://twitter.com/utdesports"
@@ -343,7 +315,6 @@
       "logo_url": "5.jpg",
       "contact_email": "astronomy.utd@gmail.com",
       "officers": ["Carl Sagan", "Neil deGrasse Tyson", "Stephen Hawking"],
-      "tags": ["Science", "Space", "Research"],
       "instagram_url": "https://www.instagram.com/astronomy_utd",
       "website_url": "https://utdastro.org",
       "twitter_url": "https://twitter.com/astronomy_utd"
@@ -355,7 +326,6 @@
       "logo_url": "6.png",
       "contact_email": "psa.utd@gmail.com",
       "officers": ["Sigmund Freud", "B.F. Skinner", "Carl Jung"],
-      "tags": ["Psychology", "Science", "Social"],
       "instagram_url": "https://www.instagram.com/psa_utd",
       "website_url": "https://utdpsychology.org",
       "twitter_url": "https://twitter.com/psa_utd"
@@ -367,7 +337,6 @@
       "logo_url": "1.png",
       "contact_email": "prelaw.utd@gmail.com",
       "officers": ["Sandra Day O'Connor", "Clarence Darrow", "John Marshall"],
-      "tags": ["Law", "Professional", "Education"],
       "instagram_url": "https://www.instagram.com/utdprelaw",
       "website_url": "https://utdprelaw.com",
       "twitter_url": "https://twitter.com/utdprelaw"
@@ -379,7 +348,6 @@
       "logo_url": "2.png",
       "contact_email": "philosophy.utd@gmail.com",
       "officers": ["Socrates", "Simone de Beauvoir", "Immanuel Kant"],
-      "tags": ["Humanities", "Philosophy", "Discussion"],
       "instagram_url": "https://www.instagram.com/philosophy_utd",
       "website_url": "https://utdphil.org",
       "twitter_url": "https://twitter.com/philosophy_utd"
@@ -391,7 +359,6 @@
       "logo_url": "3.png",
       "contact_email": "codingcommunity@gmail.com",
       "officers": ["Bill Gates", "Melinda French", "Mark Zuckerberg"],
-      "tags": ["CS", "Service", "Volunteering"],
       "instagram_url": "https://www.instagram.com/cfc_utd",
       "website_url": "https://codingforcommunity.org",
       "twitter_url": "https://twitter.com/cfc_utd"
@@ -403,7 +370,6 @@
       "logo_url": "4.jpg",
       "contact_email": "sps.utdallas@gmail.com",
       "officers": ["Richard Feynman", "Marie Curie", "Albert Einstein"],
-      "tags": ["Physics", "Science", "Research"],
       "instagram_url": "https://www.instagram.com/sps_utd",
       "website_url": "https://spsutd.org",
       "twitter_url": "https://twitter.com/sps_utd"
@@ -415,7 +381,6 @@
       "logo_url": "5.jpg",
       "contact_email": "eclub.utd@gmail.com",
       "officers": ["Steve Jobs", "Sara Blakely", "Elon Musk"],
-      "tags": ["Business", "Innovation", "Entrepreneurship"],
       "instagram_url": "https://www.instagram.com/utdeclub",
       "website_url": "https://utdentrepreneur.com",
       "twitter_url": "https://twitter.com/utdeclub"
@@ -427,7 +392,6 @@
       "logo_url": "6.png",
       "contact_email": "mun.utdallas@gmail.com",
       "officers": ["Kofi Annan", "Eleanor Roosevelt", "Ban Ki-moon"],
-      "tags": ["Politics", "International Relations", "Public Speaking"],
       "instagram_url": "https://www.instagram.com/utdmun",
       "website_url": "https://utdmun.org",
       "twitter_url": "https://twitter.com/utdmun"
@@ -439,7 +403,6 @@
       "logo_url": "7.png",
       "contact_email": "asme.utd@gmail.com",
       "officers": ["James Watt", "Henry Ford", "Nikola Tesla"],
-      "tags": ["Engineering", "Mechanical", "Professional"],
       "instagram_url": "https://www.instagram.com/asme_utd",
       "website_url": "https://asmeutd.org",
       "twitter_url": "https://twitter.com/asme_utd"
@@ -451,7 +414,6 @@
       "logo_url": "8.png",
       "contact_email": "languages.utd@gmail.com",
       "officers": ["Noam Chomsky", "Ludwig Wittgenstein", "Polyglot Paul"],
-      "tags": ["Language", "Culture", "Social"],
       "instagram_url": "https://www.instagram.com/language_utd",
       "website_url": "https://utdlanguages.org",
       "twitter_url": "https://twitter.com/language_utd"
@@ -463,7 +425,6 @@
       "logo_url": "9.jpg",
       "contact_email": "archery.utd@gmail.com",
       "officers": ["Katniss Everdeen", "Robin Hood", "Legolas Greenleaf"],
-      "tags": ["Sports", "Outdoors", "Skill"],
       "instagram_url": "https://www.instagram.com/utdarchery",
       "website_url": "https://utdarchery.com",
       "twitter_url": "https://twitter.com/utdarchery"
@@ -475,7 +436,6 @@
       "logo_url": "10.png",
       "contact_email": "animeorchestra@gmail.com",
       "officers": ["Joe Hisaishi", "Nobuo Uematsu", "Yoko Kanno"],
-      "tags": ["Music", "Anime", "Performance"],
       "instagram_url": "https://www.instagram.com/aoe_utd",
       "website_url": "https://utdanimeorchestra.com",
       "twitter_url": "https://twitter.com/aoe_utd"
@@ -487,7 +447,6 @@
       "logo_url": "11.jpg",
       "contact_email": "lug.utd@gmail.com",
       "officers": ["Linus Torvalds", "Richard Stallman", "Eric S. Raymond"],
-      "tags": ["OS", "Open Source", "Technology"],
       "instagram_url": "https://www.instagram.com/lug_utd",
       "website_url": "https://utdlug.org",
       "twitter_url": "https://twitter.com/lug_utd"
@@ -499,7 +458,6 @@
       "logo_url": "12.jpg",
       "contact_email": "writing.utd@gmail.com",
       "officers": ["Maya Angelou", "Ernest Hemingway", "Virginia Woolf"],
-      "tags": ["Writing", "Arts", "Creative"],
       "instagram_url": "https://www.instagram.com/creativewriting_utd",
       "website_url": "https://utdwriting.org",
       "twitter_url": "https://twitter.com/creativewriting_utd"
@@ -511,7 +469,6 @@
       "logo_url": "1.png",
       "contact_email": "utdtv@gmail.com",
       "officers": ["Oprah Winfrey", "Steven Spielberg", "Walter Cronkite"],
-      "tags": ["Media", "Film", "Journalism"],
       "instagram_url": "https://www.instagram.com/utdtv",
       "website_url": "https://utdtv.org",
       "twitter_url": "https://twitter.com/utdtv"
@@ -527,7 +484,6 @@
         "Greene Vardiman Black",
         "Hermey the Elf"
       ],
-      "tags": ["Medicine", "Pre-Health", "Dentistry"],
       "instagram_url": "https://www.instagram.com/utdpredental",
       "website_url": "https://utdpredental.org",
       "twitter_url": "https://twitter.com/utdpredental"
@@ -539,7 +495,6 @@
       "logo_url": "3.png",
       "contact_email": "hallyu.utd@gmail.com",
       "officers": ["Bang Si-hyuk", "Lee Soo-man", "Bong Joon-ho"],
-      "tags": ["Culture", "Music", "Social"],
       "instagram_url": "https://www.instagram.com/hallyu_utd",
       "website_url": "https://utdhallyu.com",
       "twitter_url": "https://twitter.com/hallyu_utd"
@@ -551,7 +506,6 @@
       "logo_url": "4.jpg",
       "contact_email": "esa.utd@gmail.com",
       "officers": ["Adam Smith", "Janet Yellen", "John Maynard Keynes"],
-      "tags": ["Economics", "Social Science", "Policy"],
       "instagram_url": "https://www.instagram.com/utd_esa",
       "website_url": "https://utdecon.org",
       "twitter_url": "https://twitter.com/utd_esa"
@@ -563,7 +517,6 @@
       "logo_url": "5.jpg",
       "contact_email": "photo.utd@gmail.com",
       "officers": ["Ansel Adams", "Annie Leibovitz", "Steve McCurry"],
-      "tags": ["Art", "Photography", "Creative"],
       "instagram_url": "https://www.instagram.com/utd_photo",
       "website_url": "https://utdphoto.com",
       "twitter_url": "https://twitter.com/utd_photo"
@@ -575,7 +528,6 @@
       "logo_url": "6.png",
       "contact_email": "ssu.utd@gmail.com",
       "officers": ["Karl Marx", "Rosa Luxemburg", "Eugene Debs"],
-      "tags": ["Politics", "Activism", "Discussion"],
       "instagram_url": "https://www.instagram.com/ssu_utd",
       "website_url": "https://utdssu.org",
       "twitter_url": "https://twitter.com/ssu_utd"
@@ -587,7 +539,6 @@
       "logo_url": "7.png",
       "contact_email": "prepa.utd@gmail.com",
       "officers": ["Eugene Stead", "Clara Barton", "Florence Nightingale"],
-      "tags": ["Medicine", "Pre-Health", "Professional"],
       "instagram_url": "https://www.instagram.com/prepa_utd",
       "website_url": "https://utdprepa.org",
       "twitter_url": "https://twitter.com/prepa_utd"
@@ -599,7 +550,6 @@
       "logo_url": "8.png",
       "contact_email": "tabletennis.utd@gmail.com",
       "officers": ["Ma Long", "Ding Ning", "Forrest Gump"],
-      "tags": ["Sports", "Recreation", "Social"],
       "instagram_url": "https://www.instagram.com/utd_tt",
       "website_url": "https://utdtt.com",
       "twitter_url": "https://twitter.com/utd_tt"
@@ -611,7 +561,6 @@
       "logo_url": "9.jpg",
       "contact_email": "eco.utdallas@gmail.com",
       "officers": ["Rachel Carson", "John Muir", "Al Gore"],
-      "tags": ["Environment", "Conservation", "Volunteer"],
       "instagram_url": "https://www.instagram.com/eco_utd",
       "website_url": "https://utdeco.org",
       "twitter_url": "https://twitter.com/eco_utd"
@@ -623,7 +572,6 @@
       "logo_url": "10.png",
       "contact_email": "cometcon@gmail.com",
       "officers": ["Stan Lee", "Jack Kirby", "Hayao Miyazaki"],
-      "tags": ["Events", "Pop Culture", "Anime"],
       "instagram_url": "https://www.instagram.com/cometcon_utd",
       "website_url": "https://cometcon.org",
       "twitter_url": "https://twitter.com/cometcon_utd"
@@ -635,7 +583,6 @@
       "logo_url": "11.jpg",
       "contact_email": "swe.utd@gmail.com",
       "officers": ["Ada Lovelace", "Hedy Lamarr", "Katherine Johnson"],
-      "tags": ["Engineering", "Women in STEM", "Professional"],
       "instagram_url": "https://www.instagram.com/swe_utd",
       "website_url": "https://sweutd.org",
       "twitter_url": "https://twitter.com/swe_utd"
@@ -647,7 +594,6 @@
       "logo_url": "12.jpg",
       "contact_email": "debate.utd@gmail.com",
       "officers": ["Abraham Lincoln", "Frederick Douglass", "Cicero"],
-      "tags": ["Public Speaking", "Competition", "Research"],
       "instagram_url": "https://www.instagram.com/utd_debate",
       "website_url": "https://utddebate.com",
       "twitter_url": "https://twitter.com/utd_debate"
@@ -659,7 +605,6 @@
       "logo_url": "1.png",
       "contact_email": "aigsa.utd@gmail.com",
       "officers": ["Geoffrey Hinton", "Yann LeCun", "Yoshua Bengio"],
-      "tags": ["AI", "Graduate", "Research"],
       "instagram_url": "https://www.instagram.com/aigsa_utd",
       "website_url": "https://utdaigsa.org",
       "twitter_url": "https://twitter.com/aigsa_utd"
@@ -671,7 +616,6 @@
       "logo_url": "2.png",
       "contact_email": "cometopera@gmail.com",
       "officers": ["Luciano Pavarotti", "Maria Callas", "Wolfgang Mozart"],
-      "tags": ["Music", "Performance", "Arts"],
       "instagram_url": "https://www.instagram.com/cometopera",
       "website_url": "https://cometopera.com",
       "twitter_url": "https://twitter.com/cometopera"
@@ -683,7 +627,6 @@
       "logo_url": "3.png",
       "contact_email": "srf.utd@gmail.com",
       "officers": ["Sam Walton", "Coco Chanel", "Phil Knight"],
-      "tags": ["Business", "Retail", "Fashion"],
       "instagram_url": "https://www.instagram.com/srf_utd",
       "website_url": "https://utdsrf.org",
       "twitter_url": "https://twitter.com/srf_utd"
@@ -695,7 +638,6 @@
       "logo_url": "4.jpg",
       "contact_email": "ais.jsom@gmail.com",
       "officers": ["Bill McDermott", "Safra Catz", "Larry Ellison"],
-      "tags": ["Technology", "Information Systems", "Business"],
       "instagram_url": "https://www.instagram.com/ais_utdallas",
       "website_url": "https://utdais.com",
       "twitter_url": "https://twitter.com/ais_utdallas"
@@ -707,7 +649,6 @@
       "logo_url": "5.jpg",
       "contact_email": "nsa.utd@gmail.com",
       "officers": ["Santiago Ramón y Cajal", "Oliver Sacks", "Eric Kandel"],
-      "tags": ["Neuroscience", "Science", "Research"],
       "instagram_url": "https://www.instagram.com/utd_nsa",
       "website_url": "https://utdneuro.org",
       "twitter_url": "https://twitter.com/utd_nsa"
@@ -719,7 +660,6 @@
       "logo_url": "6.png",
       "contact_email": "sg@utdallas.edu",
       "officers": ["George Washington", "Alexander Hamilton", "John Adams"],
-      "tags": ["Leadership", "Policy", "Service"],
       "instagram_url": "https://www.instagram.com/utdsg",
       "website_url": "https://utdallas.edu/sg",
       "twitter_url": "https://twitter.com/utdsg"
@@ -731,7 +671,6 @@
       "logo_url": "1.png",
       "contact_email": "sae.utd@gmail.com",
       "officers": ["Enzo Ferrari", "Carroll Shelby", "Mary Barra"],
-      "tags": ["Engineering", "Automotive", "Racing"],
       "instagram_url": "https://www.instagram.com/utd_sae",
       "website_url": "https://utdsae.org",
       "twitter_url": "https://twitter.com/utd_sae"
@@ -743,7 +682,6 @@
       "logo_url": "2.png",
       "contact_email": "prevet.utd@gmail.com",
       "officers": ["James Herriot", "Steve Irwin", "Temple Grandin"],
-      "tags": ["Medicine", "Animals", "Pre-Health"],
       "instagram_url": "https://www.instagram.com/utd_prevet",
       "website_url": "https://utdprevet.com",
       "twitter_url": "https://twitter.com/utd_prevet"
@@ -755,7 +693,6 @@
       "logo_url": "3.png",
       "contact_email": "cleanenergy.utd@gmail.com",
       "officers": ["Nikola Tesla", "Elon Musk", "Zhengrong Shi"],
-      "tags": ["Energy", "Sustainability", "Engineering"],
       "instagram_url": "https://www.instagram.com/cometcleanenergy",
       "website_url": "https://utdcleanenergy.org",
       "twitter_url": "https://twitter.com/cometcleanenergy"
@@ -767,7 +704,6 @@
       "logo_url": "4.jpg",
       "contact_email": "chessteam@utdallas.edu",
       "officers": ["Garry Kasparov", "Judit Polgár", "Anatoly Karpov"],
-      "tags": ["Chess", "Competition", "Elite"],
       "instagram_url": "https://www.instagram.com/utd_chessteam",
       "website_url": "https://utdallas.edu/chess",
       "twitter_url": "https://twitter.com/utd_chessteam"
@@ -779,7 +715,6 @@
       "logo_url": "5.jpg",
       "contact_email": "biochem.utd@gmail.com",
       "officers": ["Linus Pauling", "Dorothy Hodgkin", "Frederick Sanger"],
-      "tags": ["Chemistry", "Biology", "Research"],
       "instagram_url": "https://www.instagram.com/utd_biochem",
       "website_url": "https://utdbiochem.org",
       "twitter_url": "https://twitter.com/utd_biochem"
@@ -791,7 +726,6 @@
       "logo_url": "6.png",
       "contact_email": "munteam.utd@gmail.com",
       "officers": ["Dag Hammarskjöld", "Madeleine Albright", "Adlai Stevenson"],
-      "tags": ["Politics", "Diplomacy", "Competition"],
       "instagram_url": "https://www.instagram.com/utd_mun_team",
       "website_url": "https://utdmun.org/team",
       "twitter_url": "https://twitter.com/utd_mun_team"
@@ -803,7 +737,6 @@
       "logo_url": "7.png",
       "contact_email": "mrs.utd@gmail.com",
       "officers": ["Mildred Dresselhaus", "Robert Cava", "Stephanie Kwolek"],
-      "tags": ["Science", "Engineering", "Nanotech"],
       "instagram_url": "https://www.instagram.com/utd_mrs",
       "website_url": "https://utdmrs.org",
       "twitter_url": "https://twitter.com/utd_mrs"
@@ -815,7 +748,6 @@
       "logo_url": "8.png",
       "contact_email": "wellness.utd@gmail.com",
       "officers": ["Deepak Chopra", "Arianna Huffington", "Wim Hof"],
-      "tags": ["Health", "Wellness", "Social"],
       "instagram_url": "https://www.instagram.com/utd_wellness",
       "website_url": "https://utdwellness.org",
       "twitter_url": "https://twitter.com/utd_wellness"
@@ -827,7 +759,6 @@
       "logo_url": "9.jpg",
       "contact_email": "dance.utd@gmail.com",
       "officers": ["Martha Graham", "Misty Copeland", "George Balanchine"],
-      "tags": ["Dance", "Arts", "Performance"],
       "instagram_url": "https://www.instagram.com/utd_dance",
       "website_url": "https://utddance.com",
       "twitter_url": "https://twitter.com/utd_dance"
@@ -839,7 +770,6 @@
       "logo_url": "10.png",
       "contact_email": "geology.utd@gmail.com",
       "officers": ["Charles Lyell", "Mary Anning", "James Hutton"],
-      "tags": ["Science", "Earth", "Outdoors"],
       "instagram_url": "https://www.instagram.com/utd_geology",
       "website_url": "https://utdgeology.org",
       "twitter_url": "https://twitter.com/utd_geology"
@@ -851,7 +781,6 @@
       "logo_url": "11.jpg",
       "contact_email": "isc.utd@gmail.com",
       "officers": ["Malala Yousafzai", "Nelson Mandela", "Indira Gandhi"],
-      "tags": ["Culture", "Global", "Support"],
       "instagram_url": "https://www.instagram.com/utd_isc",
       "website_url": "https://utdisc.org",
       "twitter_url": "https://twitter.com/utd_isc"
@@ -863,7 +792,6 @@
       "logo_url": "12.jpg",
       "contact_email": "cometsound.utd@gmail.com",
       "officers": ["Quincy Jones", "Rick Rubin", "Dr. Dre"],
-      "tags": ["Music", "Production", "Technology"],
       "instagram_url": "https://www.instagram.com/cometsound_utd",
       "website_url": "https://cometsound.org",
       "twitter_url": "https://twitter.com/cometsound_utd"
@@ -875,7 +803,6 @@
       "logo_url": "1.png",
       "contact_email": "aiethics.utd@gmail.com",
       "officers": ["Timnit Gebru", "Joy Buolamwini", "Nick Bostrom"],
-      "tags": ["AI", "Ethics", "Philosophy"],
       "instagram_url": "https://www.instagram.com/utd_ai_ethics",
       "website_url": "https://aiethicsutd.org",
       "twitter_url": "https://twitter.com/utd_ai_ethics"
@@ -887,7 +814,6 @@
       "logo_url": "2.png",
       "contact_email": "preopt.utd@gmail.com",
       "officers": ["Hermann von Helmholtz", "Ibn al-Haytham", "Bette Midler"],
-      "tags": ["Medicine", "Pre-Health", "Optometry"],
       "instagram_url": "https://www.instagram.com/utd_preopt",
       "website_url": "https://utdpreopt.com",
       "twitter_url": "https://twitter.com/utd_preopt"
@@ -899,7 +825,6 @@
       "logo_url": "3.png",
       "contact_email": "esportsmedia.utd@gmail.com",
       "officers": ["MrBeast", "Ninja", "Sjokz"],
-      "tags": ["Gaming", "Media", "Streaming"],
       "instagram_url": "https://www.instagram.com/utdesportsmedia",
       "website_url": "https://utdesports.com/media",
       "twitter_url": "https://twitter.com/utdesportsmedia"

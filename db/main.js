@@ -14,14 +14,6 @@ module.exports.fetchData = async (cmd) => {
   return res;
 };
 
-// db/main.js - UPDATED
-module.exports.changeData = async (query, values) => {
-  const client = await pool.connect();
-  try {
-    // Pass 'values' as the second argument so $1, $2, etc. are recognized
-    const result = await client.query(query, values); 
-    return result;
-  } finally {
-    client.release();
-  }
+module.exports.changeData = async (cmd) => {
+  await pool.query(cmd);
 };
