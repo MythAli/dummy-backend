@@ -1,0 +1,371 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "image": "1.png",
+      "club_name": "Nebula Labs",
+      "body": "Nebula Labs is an interdisciplinary student-led organization at UTD dedicated to building and maintaining open-source software tools that improve the campus experience. Our projects, including Trends, Skedge, and the very Clubs directory you are using, are built by students for students. We provide a professional-grade collaborative environment where developers, designers, and product managers can gain real-world experience while giving back to the university community through impactful technology solutions."
+    },
+    {
+      "id": 2,
+      "image": "2.png",
+      "club_name": "Student Game Developer Association",
+      "body": "The Student Game Developer Association (SGDA) serves as the primary hub for UTD students interested in the multifaceted world of game creation. Whether you are an aspiring programmer, a digital artist, a sound designer, or a narrative writer, SGDA offers a community to hone your craft. We host weekly workshops, industry guest speaker sessions, and our signature semesterly game jams where members collaborate to build fully functional games from scratch in just 48 hours."
+    },
+    {
+      "id": 3,
+      "image": "3.png",
+      "club_name": "FinTech UTD",
+      "body": "FinTech UTD is a premier student organization sitting at the intersection of financial markets and modern technology. We aim to bridge the gap between traditional finance and computer science by providing members with hands-on experience in algorithmic trading, blockchain development, and financial modeling. Through our various divisions, students work on real-world projects, participate in case competitions, and network with leading professionals in the rapidly evolving financial technology sector in the Dallas-Fort Worth area."
+    },
+    {
+      "id": 4,
+      "image": "4.jpg",
+      "club_name": "Data Science Club",
+      "body": "The Data Science Club at UTD is dedicated to fostering a community of students passionate about data-driven decision-making and analytical storytelling. We offer comprehensive resources for learning Python, R, and SQL, alongside workshops on machine learning and statistical analysis. Members have the opportunity to participate in data-thons, work on collaborative research projects, and connect with industry partners who are looking for the next generation of data scientists and analysts to solve complex problems."
+    },
+    {
+      "id": 5,
+      "image": "5.jpg",
+      "club_name": "Artificial Intelligence Society",
+      "body": "The Artificial Intelligence Society (AIS) is UTD’s premier organization for exploring the vast frontiers of machine learning and cognitive computing. Our mission is to make AI accessible to everyone, regardless of their major or background. We host technical workshops on neural networks, natural language processing, and computer vision, while also discussing the ethical implications of AI in society. Join us to build innovative projects, attend research talks, and network with top-tier AI researchers and engineers."
+    },
+    {
+      "id": 6,
+      "image": "6.png",
+      "club_name": "Baking for a Cause",
+      "body": "Baking for a Cause is a unique service-oriented organization that combines a love for confectionery arts with a commitment to community service. Our members meet regularly to bake a wide variety of delicious desserts, which are then donated to local homeless shelters and non-profit organizations across the DFW metroplex. We provide a warm, welcoming environment for bakers of all skill levels to share recipes, learn new techniques, and make a tangible difference through the joy of food."
+    },
+    {
+      "id": 7,
+      "image": "7.png",
+      "club_name": "180 Degrees Consulting",
+      "body": "180 Degrees Consulting at UTD is part of the world’s largest volunteer consultancy for non-profits and social enterprises. We recruit high-achieving students to provide high-quality strategic advice to organizations that are working to solve social problems but lack the resources to hire commercial consultants. Our members gain valuable experience in project management, data analysis, and client relations while helping local non-profits increase their social impact and operational efficiency in a professional consulting capacity."
+    },
+    {
+      "id": 8,
+      "image": "8.png",
+      "club_name": "Alpha Kappa Psi (AKPsi)",
+      "body": "Alpha Kappa Psi is the oldest and largest professional business fraternity in the world, and our UTD chapter is dedicated to developing the next generation of principled business leaders. We focus on professional development through resume workshops, mock interviews, and exclusive networking events with corporate partners. Beyond professional growth, we foster a lifelong brotherhood among members from all majors, emphasizing the core values of brotherhood, integrity, service, unity, and knowledge in everything we do as an organization."
+    },
+    {
+      "id": 9,
+      "image": "9.jpg",
+      "club_name": "Amazon Web Services (AWS) Club",
+      "body": "The AWS Club at UTD provides a platform for students to dive deep into the world of cloud computing using the industry-standard Amazon Web Services platform. We host hands-on labs, certification study groups, and technical deep-dives into services like EC2, S3, and Lambda. Our goal is to equip students with the highly sought-after cloud skills needed in today's job market, regardless of whether they are studying computer science, business analytics, or information technology management."
+    },
+    {
+      "id": 10,
+      "image": "10.png",
+      "club_name": "American Marketing Association (AMA)",
+      "body": "The American Marketing Association at UTD is a professional organization designed to help students jumpstart their careers in marketing, advertising, and public relations. We provide members with access to real-world marketing projects, regional and national conferences, and a vast network of professional alumni. Through guest speakers and workshops, we explore current trends in digital marketing, consumer behavior, and brand management, ensuring our members are well-prepared to enter the competitive landscape of the modern marketing industry."
+    },
+    {
+      "id": 11,
+      "image": "11.jpg",
+      "club_name": "ACM (Association for Computing Machinery)",
+      "body": "The Association for Computing Machinery (ACM) is the largest and most active computer science organization at UTD. We serve as an umbrella for various interest groups including ACM Projects, ACM Research, and HackUTD, the largest hackathon in North Texas. Our mission is to foster a vibrant technical community by providing students with the resources to learn new technologies, build impressive portfolio projects, and connect with major tech companies through our frequent networking events and career development workshops."
+    },
+    {
+      "id": 12,
+      "image": "12.jpg",
+      "club_name": "Women in Computer Science (WICS)",
+      "body": "Women in Computer Science (WICS) is dedicated to supporting and empowering women and non-binary students pursuing degrees in technology-related fields at UTD. We strive to create a collaborative and inclusive community through mentorship programs, technical workshops, and professional networking events. By bridging the gender gap in computing, we help our members build confidence, develop leadership skills, and secure internships and full-time roles at leading tech companies while fostering lifelong friendships within the department."
+    },
+    {
+      "id": 13,
+      "image": "1.png",
+      "club_name": "Cyber Security Group (CSG)",
+      "body": "The Cyber Security Group at UTD is a hands-on organization focused on the art and science of digital defense and ethical hacking. We provide a safe environment for students to learn about network security, cryptography, and penetration testing through interactive labs and Capture The Flag (CTF) competitions. Our members regularly participate in national cybersecurity challenges and hear from industry experts about the latest threats and defense strategies, preparing them for high-demand careers in information security and digital forensics."
+    },
+    {
+      "id": 14,
+      "image": "2.png",
+      "club_name": "UTD IEEE",
+      "body": "The UTD chapter of the Institute of Electrical and Electronics Engineers (IEEE) is a professional society for students interested in engineering and technology. We provide a bridge between the classroom and the industry through technical projects, hardware workshops, and corporate info sessions. Our goal is to foster a community where electrical, computer, and mechanical engineering students can collaborate on innovative hardware designs, learn essential tools like PCB layout and soldering, and prepare for successful careers in the engineering sector."
+    },
+    {
+      "id": 15,
+      "image": "3.png",
+      "club_name": "Math Club",
+      "body": "The Math Club at UTD is a gathering place for students who find beauty and excitement in mathematics beyond the standard curriculum. We host informal discussions on a wide range of topics, including number theory, topology, and combinatorics, as well as competitive problem-solving sessions. Whether you are a math major or just someone who enjoys a good puzzle, our club provides a low-stress environment to explore complex mathematical theories, hear from guest lecturers, and meet other students who share a passion for quantitative reasoning."
+    },
+    {
+      "id": 16,
+      "image": "4.jpg",
+      "club_name": "Chemistry Student Association",
+      "body": "The Chemistry Student Association (CSA) is committed to promoting interest in the chemical sciences and supporting students throughout their academic journey at UTD. We provide opportunities for students to engage with faculty, participate in laboratory tours, and attend social events with fellow science enthusiasts. From study groups for organic chemistry to guest speakers from the pharmaceutical and materials science industries, CSA offers a comprehensive support network for anyone interested in the microscopic world and its practical applications in modern life."
+    },
+    {
+      "id": 17,
+      "image": "5.jpg",
+      "club_name": "Biology Student Association",
+      "body": "The Biology Student Association (BSA) is a community-driven organization designed to assist biology majors and those in related life sciences with their academic and professional goals. We provide valuable resources such as peer tutoring, information on undergraduate research opportunities, and workshops on applying to graduate programs. Beyond academics, BSA hosts social mixers and outdoor activities that allow students to connect with their peers and faculty in a relaxed setting, fostering a sense of belonging within the School of Natural Sciences and Mathematics."
+    },
+    {
+      "id": 18,
+      "image": "6.png",
+      "club_name": "Pre-Dental Association",
+      "body": "The Pre-Dental Association at UTD is dedicated to helping students navigate the challenging path toward dental school admission. We offer a wealth of resources including DAT study groups, manual dexterity workshops, and information on shadowing local dentists. Members benefit from guest lectures by dental professionals and admissions officers, providing them with the insights and competitive edge needed to succeed. Our organization also emphasizes community service, encouraging members to participate in local oral health outreach programs and volunteer events."
+    },
+    {
+      "id": 19,
+      "image": "7.png",
+      "club_name": "Molding Doctors at UTD",
+      "body": "Molding Doctors is a comprehensive pre-medical organization focused on empowering future physicians with the tools and mentorship necessary for a successful medical school application process. We provide members with opportunities for clinical volunteering, medical research connections, and MCAT preparation resources. By fostering a collaborative rather than competitive environment, we encourage our members to share knowledge, support one another through the rigors of pre-med life, and develop the ethical and leadership qualities required of compassionate future healthcare providers."
+    },
+    {
+      "id": 20,
+      "image": "8.png",
+      "club_name": "Minority Association of Pre-Medical Students",
+      "body": "The Minority Association of Pre-Medical Students (MAPS) at UTD is committed to increasing the number of culturally competent and diverse physicians in the healthcare field. We provide underrepresented students with mentorship, academic support, and resources tailored to their unique challenges in the pre-med journey. Through community outreach, health equity advocacy, and professional development workshops, MAPS strives to address healthcare disparities and ensure that the next generation of doctors reflects the diverse communities they will eventually serve and treat."
+    },
+    {
+      "id": 21,
+      "image": "9.jpg",
+      "club_name": "Alpha Epsilon Delta",
+      "body": "Alpha Epsilon Delta (AED) is the national health pre-professional honor society dedicated to the encouragement and recognition of excellence in pre-professional health scholarship. Our UTD chapter provides a platform for high-achieving students from all health disciplines to engage in service, leadership, and professional networking. We host a variety of events featuring healthcare professionals, admissions deans, and community leaders, all aimed at helping our members become well-rounded candidates for their respective professional schools while making a significant impact through local service projects."
+    },
+    {
+      "id": 22,
+      "image": "10.png",
+      "club_name": "South Asian Medical Society",
+      "body": "The South Asian Medical Society (SAMS) at UTD is a community-focused organization that brings together students from South Asian backgrounds who are pursuing careers in healthcare. We offer a supportive network for navigating pre-medical and pre-health requirements, including clinical shadowing opportunities and research mentorship. SAMS also focuses on cultural identity in medicine, discussing health issues specifically affecting the South Asian community and providing a space for students to celebrate their heritage while working toward their professional goals in the medical field."
+    },
+    {
+      "id": 23,
+      "image": "11.jpg",
+      "club_name": "UTD Blood Initiative",
+      "body": "The UTD Blood Initiative is a student-led organization dedicated to addressing the critical need for blood donations in the North Texas region. We work closely with local blood centers to organize campus-wide blood drives and educate the student body on the importance of regular donation. Our members gain experience in event planning, community outreach, and healthcare advocacy as they strive to save lives through awareness and action. Join us to help make blood donation a consistent and vital part of the UTD campus culture."
+    },
+    {
+      "id": 24,
+      "image": "12.jpg",
+      "club_name": "Physics Graduate Student Association",
+      "body": "The Physics Graduate Student Association (PGSA) is a social and professional organization designed to support the needs and interests of graduate students within the UTD Physics Department. We provide a platform for students to share their research, practice presentation skills, and discuss the unique challenges of graduate life. Through social mixers, faculty lunches, and career development workshops, the PGSA fosters a cohesive and supportive community that encourages collaboration across different research groups, from astrophysics and cosmology to particle physics and nanotechnology."
+    },
+    {
+      "id": 25,
+      "image": "1.png",
+      "club_name": "UTD Chess Club",
+      "body": "The UTD Chess Club is the heart of our university's world-renowned chess program, offering a welcoming space for everyone from casual beginners to seasoned Grandmasters. We host weekly casual play sessions, intramural tournaments, and workshops on tactics and strategy. Members have the unique opportunity to interact with UTD’s competitive scholarship team and participate in events that promote the educational and social benefits of chess. Whether you want to improve your ELO or just play a friendly game, our club is the perfect place."
+    },
+    {
+      "id": 26,
+      "image": "2.png",
+      "club_name": "Esports at UTD",
+      "body": "Esports at UTD is the official home for competitive and recreational gaming on campus. We manage a wide variety of varsity and club-level teams for popular titles such as League of Legends, Overwatch, Valorant, and Rocket League. Beyond competition, we foster a massive community for gaming enthusiasts through viewing parties, local tournaments, and social events. Our organization provides a structured environment for students to develop teamwork, communication, and leadership skills while representing UTD in national collegiate esports leagues and tournaments."
+    },
+    {
+      "id": 27,
+      "image": "3.png",
+      "club_name": "Robotics Coalition",
+      "body": "The Robotics Coalition at UTD is a collaborative multidisciplinary space for students passionate about designing, building, and programming intelligent machines. We bring together engineering, computer science, and arts and technology students to work on complex robotics projects for various intercollegiate competitions. Our members gain hands-on experience with sensors, microcontrollers, CAD design, and computer vision. From autonomous drones to battle-bots, the coalition provides the tools, funding, and mentorship needed to turn ambitious robotic concepts into reality while preparing students for careers in automation."
+    },
+    {
+      "id": 28,
+      "image": "4.jpg",
+      "club_name": "Comets for Better Transit",
+      "body": "Comets for Better Transit is an advocacy group dedicated to improving public transportation, pedestrian safety, and sustainable infrastructure connectivity for the UTD campus and the surrounding city of Richardson. We work with university administration and local government officials to advocate for better bus routes, safer bike lanes, and more accessible campus walkways. Our goal is to make UTD a more walkable, bikeable, and transit-oriented campus, ensuring that all students have reliable and environmentally friendly ways to travel to and from their classes."
+    },
+    {
+      "id": 29,
+      "image": "5.jpg",
+      "club_name": "Solar Projects Team",
+      "body": "The Solar Projects Team is a multi-disciplinary engineering organization at UTD focused on the design and construction of innovative solar-powered systems. Our flagship project involves building a solar-powered vehicle to compete in national solar car challenges. Students gain invaluable experience in mechanical systems, electrical power distribution, and composite materials while working in a professional-style engineering environment. We emphasize sustainability and clean energy technology, providing a platform for future engineers to apply their classroom knowledge to real-world renewable energy challenges in a high-stakes competitive setting."
+    },
+    {
+      "id": 30,
+      "image": "6.png",
+      "club_name": "Biomedical Engineering Society",
+      "body": "The Biomedical Engineering Society (BMES) at UTD connects students with the rapidly growing world of medical technology and biotechnology. We provide a bridge between academic study and the professional industry through guest speakers from leading medical device companies, tours of research facilities, and design competitions. Our members explore the latest advancements in tissue engineering, medical imaging, and neural interfaces, while developing the professional skills and network needed to secure internships and full-time roles in the biomedical sector, ultimately contributing to the future of healthcare technology."
+    },
+    {
+      "id": 31,
+      "image": "7.png",
+      "club_name": "UTD Debate",
+      "body": "UTD Debate is a nationally ranked program that provides students with the opportunity to engage in rigorous policy debate and competitive public speaking. Our members spend their time researching complex political and social issues, developing persuasive arguments, and competing against the best universities in the country. Participation in debate hones critical thinking, effective communication, and deep research skills that are invaluable for future careers in law, public policy, and academia. We welcome students of all majors who are eager to challenge their perspectives and improve their rhetorical abilities."
+    },
+    {
+      "id": 32,
+      "image": "8.png",
+      "club_name": "The Mercury",
+      "body": "The Mercury is the official student newspaper of UT Dallas, serving as a vital source of campus news, opinion, and student life since 1980. We provide a platform for aspiring journalists, photographers, and graphic designers to gain hands-on experience in the fast-paced world of media. Our student-led editorial team covers everything from university policy changes and research breakthroughs to local arts and culture. By working for The Mercury, students develop professional portfolios and critical reporting skills while ensuring the UTD community stays informed and engaged with local and campus events."
+    },
+    {
+      "id": 33,
+      "image": "9.jpg",
+      "club_name": "Radio UTD",
+      "body": "Radio UTD is an award-winning student-run internet radio station that prides itself on providing a platform for underrepresented music, creative podcasts, and student voices. We offer students the chance to become DJs, producers, and marketing specialists in a professional broadcast environment. Our programming is diverse, ranging from indie rock and electronic music to talk shows discussing campus issues and pop culture. Beyond the airwaves, Radio UTD hosts live concerts and social events, fostering a vibrant alternative culture on campus and helping students find their voice through the power of sound."
+    },
+    {
+      "id": 34,
+      "image": "10.png",
+      "club_name": "Meteor Theater",
+      "body": "Meteor Theater is the official student-led film organization at UT Dallas, dedicated to bringing a high-quality cinematic experience to the student body. We organize weekly screenings of recent blockbusters, cult classics, and independent films, often featuring themed festivals and collaborative events with other campus organizations. Our members gain experience in event planning, licensing, and film marketing while fostering a community for cinephiles to discuss and enjoy film. Meteor Theater provides an essential social outlet for the campus, ensuring that students have access to free, high-quality entertainment and a place to celebrate the art of cinema."
+    },
+    {
+      "id": 35,
+      "image": "11.jpg",
+      "club_name": "Strings Attached",
+      "body": "Strings Attached is a musical organization dedicated to providing a collaborative space for students who play string instruments, including violin, viola, cello, and double bass. We bring together musicians of all skill levels to practice ensemble pieces, from classical standards to contemporary pop arrangements. Our group performs at various campus events and hosts our own concerts, offering a creative outlet for students who want to continue their musical journey outside of a formal conservatory setting. Join us to find new performance opportunities and meet fellow musicians who share a love for orchestral and chamber music."
+    },
+    {
+      "id": 36,
+      "image": "12.jpg",
+      "club_name": "UTD Aikido Club",
+      "body": "The UTD Aikido Club offers students the chance to learn the traditional Japanese martial art of Aikido, which focuses on self-defense through redirection and harmony rather than brute force. Our classes emphasize physical fitness, mental discipline, and peaceful conflict resolution. Under the guidance of experienced instructors, members learn how to use an attacker's energy against them through various throws and joint locks. The club provides a welcoming environment for practitioners of all experience levels to improve their coordination, flexibility, and mindfulness while learning a unique and effective system of martial arts."
+    },
+    {
+      "id": 37,
+      "image": "1.png",
+      "club_name": "Fencing Club",
+      "body": "The UTD Fencing Club is dedicated to the sport of modern Olympic fencing, offering instruction and competitive opportunities in foil, epee, and sabre. We provide equipment and training for absolute beginners while supporting experienced fencers in preparing for regional and national collegiate tournaments. Fencing is a sport that requires a unique blend of physical agility, tactical thinking, and mental focus. Our club fosters a supportive environment where members can develop their skills, compete with their peers, and participate in a historic sport that is often described as 'physical chess' on the strip."
+    },
+    {
+      "id": 38,
+      "image": "2.png",
+      "club_name": "Kendo Club",
+      "body": "The Kendo Club at UTD practices the traditional Japanese martial art of bamboo sword fencing, which is rooted in the spirit and techniques of the samurai. Our training sessions focus on developing physical strength, correct posture, and a strong mental spirit through disciplined practice and sparring. We place a high emphasis on etiquette, respect, and self-improvement, following the traditional teachings of Kendo. The club welcomes students of all backgrounds and fitness levels to join our community and explore this profound martial path while gaining discipline and focus that extends into their academic and professional lives."
+    },
+    {
+      "id": 39,
+      "image": "3.png",
+      "club_name": "UTD Rock Climbing Club",
+      "body": "The UTD Rock Climbing Club is a community for students who love bouldering, top-rope, and lead climbing. We organize regular group trips to local indoor climbing gyms in the DFW area and seasonal outdoor excursions to premier climbing destinations in Texas and beyond. Our club is open to all skill levels, from those who have never touched a climbing wall to experienced lead climbers. We provide a space for members to learn safety techniques, improve their physical strength, and find reliable climbing partners within a friendly and adventurous social community."
+    },
+    {
+      "id": 40,
+      "image": "4.jpg",
+      "club_name": "Philosophy Club",
+      "body": "The Philosophy Club at UTD is a discussion-based organization where students can explore the deep and often difficult questions of human existence in a relaxed and respectful setting. We meet weekly to discuss topics ranging from ethics and political philosophy to metaphysics and the nature of consciousness. Our goal is to encourage critical thinking and open-mindedness, allowing students to challenge their own beliefs and learn from the perspectives of others. No prior background in philosophy is required; all that is needed is a curious mind and a willingness to engage in thoughtful, civil debate."
+    },
+    {
+      "id": 41,
+      "image": "5.jpg",
+      "club_name": "UTD Mock Trial",
+      "body": "UTD Mock Trial is a competitive organization that allows students to step into the shoes of attorneys and witnesses in a simulated courtroom environment. We analyze complex legal cases provided by the American Mock Trial Association, developing legal theories, writing opening statements, and conducting cross-examinations. Our members compete in tournaments across the country, honing their public speaking, analytical reasoning, and performance skills. This organization is an excellent choice for students interested in pursuing a career in law, but it is also a great way for any student to improve their confidence and professional communication abilities."
+    },
+    {
+      "id": 42,
+      "image": "6.png",
+      "club_name": "Model United Nations",
+      "body": "Model United Nations (MUN) at UTD is an academic simulation of the United Nations where students represent different countries to discuss and resolve global issues. Through research, public speaking, and negotiation, our members tackle topics such as international security, environmental policy, and human rights. We attend several conferences each year, where students collaborate with peers from other universities to draft resolutions and navigate the complexities of international diplomacy. Model UN is perfect for students interested in international relations, politics, and global affairs who want to develop their leadership and consensus-building skills."
+    },
+    {
+      "id": 43,
+      "image": "7.png",
+      "club_name": "Focus on the Family",
+      "body": "Focus on the Family is a faith-based student organization at UTD that provides a supportive community for students to explore their faith and its application to modern family life and relationships. We host regular meetings featuring group discussions, guest speakers, and social events that emphasize the importance of traditional family values and spiritual growth. Our organization strives to be a place of encouragement and fellowship, offering students a sense of belonging and guidance as they navigate the transitions of university life and prepare for their future roles in their families and communities."
+    },
+    {
+      "id": 44,
+      "image": "8.png",
+      "club_name": "Global Brigades",
+      "body": "Global Brigades at UTD is part of the world’s largest student-led movement for sustainable development and global health. We organize international service trips where students work alongside local community members in developing countries to implement sustainable projects in areas such as healthcare, clean water, and economic development. Our holistic model ensures that we provide more than just temporary aid, focusing instead on long-term community empowerment. Members gain invaluable global perspective and hands-on experience in their respective fields while contributing to meaningful, lasting change in under-resourced communities around the world."
+    },
+    {
+      "id": 45,
+      "image": "9.jpg",
+      "club_name": "UNICEF at UTD",
+      "body": "UNICEF at UTD is a campus chapter of the United Nations Children's Fund, dedicated to advocating for the survival, protection, and development of children worldwide. Our members engage in local fundraising efforts, awareness campaigns, and community service projects to support UNICEF’s global mission. We discuss international issues such as child education, clean water access, and emergency relief, while providing students with opportunities to develop their leadership and advocacy skills. By joining UNICEF, students become part of a global movement to ensure that every child, regardless of where they are born, has a fair chance at life."
+    },
+    {
+      "id": 46,
+      "image": "10.png",
+      "club_name": "Habitat for Humanity",
+      "body": "The Habitat for Humanity chapter at UTD works in partnership with the local Dallas and Collin County affiliates to help build decent, affordable housing for those in need. Our members participate in Saturday 'build days,' where they gain practical construction skills while contributing to the creation of safe and stable homes for local families. Beyond the construction site, we advocate for fair housing policies and host on-campus awareness events. Habitat for Humanity offers students a tangible way to give back to the DFW community and learn about the importance of housing security in breaking the cycle of poverty."
+    },
+    {
+      "id": 47,
+      "image": "11.jpg",
+      "club_name": "Lavender Club",
+      "body": "The Lavender Club is a vibrant and inclusive social organization at UTD designed specifically for LGBTQ+ students and their allies. Our mission is to create a safe, welcoming, and fun environment where members can connect, share experiences, and build a strong sense of community on campus. We host a wide variety of social events, from coffee mixers and game nights to educational workshops and identity-focused discussions. By fostering an atmosphere of mutual respect and celebration, the Lavender Club helps students navigate their university years with the support of a diverse and affirming peer network."
+    },
+    {
+      "id": 48,
+      "image": "12.jpg",
+      "club_name": "Queer & Trans POC",
+      "body": "Queer & Trans People of Color (QTPOC) is a specialized student organization at UTD that focuses on the unique intersectional experiences of LGBTQ+ individuals from diverse racial and ethnic backgrounds. We provide a dedicated space for community-building, advocacy, and support, addressing the specific challenges faced by queer and trans people of color in both academic and social settings. Our meetings and events focus on self-care, identity exploration, and social justice, ensuring that our members feel seen, heard, and empowered within a supportive community that celebrates the richness of their intersecting identities."
+    },
+    {
+      "id": 49,
+      "image": "1.png",
+      "club_name": "oSTEM",
+      "body": "oSTEM (Out in Science, Technology, Engineering, and Mathematics) at UTD is a professional organization for LGBTQ+ students pursuing degrees and careers in STEM fields. We focus on professional development, mentorship, and creating an inclusive environment within the technical and scientific disciplines. Our members attend regional and national conferences, connect with LGBTQ-affirming employers, and participate in technical workshops that help them succeed in their academic and professional pursuits. oSTEM provides a vital network for students to navigate the STEM industry with confidence while fostering a community that values both their professional expertise and their authentic identities."
+    },
+    {
+      "id": 50,
+      "image": "2.png",
+      "club_name": "National Society of Black Engineers (NSBE)",
+      "body": "The National Society of Black Engineers (NSBE) at UTD is dedicated to the academic and professional success of Black engineering and technology students. Our mission is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally, and positively impact the community. We provide members with access to leadership training, professional networking with corporate partners, and academic support through study groups and workshops. NSBE fosters a strong sense of community and provides the resources needed for our members to become leaders in the global engineering workforce while inspiring the next generation of STEM professionals."
+    },
+
+    {
+      "id": 51,
+      "image": "3.png",
+      "club_name": "Society of Hispanic Professional Engineers (SHPE)",
+      "body": "SHPE at UTD is a leading student organization that changes lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support, and development. We provide our members with a powerful network of mentors, professional development workshops, and opportunities to attend national conferences where they can interview with top-tier engineering firms. Our chapter emphasizes familial support, academic excellence, and community outreach, ensuring that every member has the resources to thrive in their professional journey."
+    },
+    {
+      "id": 52,
+      "image": "4.jpg",
+      "club_name": "Society of Women Engineers (SWE)",
+      "body": "The Society of Women Engineers at UTD is a vibrant community dedicated to giving women a unique voice and a place to excel within the engineering and technology industries. We offer a supportive environment through mentorship programs, technical development sessions, and networking events with industry leaders. Our mission is to stimulate women to achieve their full potential in careers as engineers and leaders, while expanding the image of the engineering profession as a positive force in improving the quality of life and demonstrating the value of diversity in technical fields."
+    },
+    {
+      "id": 53,
+      "image": "5.jpg",
+      "club_name": "UTD TV",
+      "body": "UTD TV is the university's premier student-run television station, providing a creative outlet for students interested in broadcast journalism, digital cinematography, video editing, and scriptwriting. Our members produce a wide variety of content, including campus news updates, original sketch comedy, short films, and investigative documentaries. By working with professional-grade equipment in a collaborative studio environment, students gain the hands-on technical skills and creative portfolio necessary to pursue successful careers in the modern media, entertainment, and film industries while keeping the campus community informed and entertained."
+    },
+    {
+      "id": 54,
+      "image": "6.png",
+      "club_name": "Artificial Intelligence Graduate Student Association",
+      "body": "The Artificial Intelligence Graduate Student Association (AIGSA) is a specialized professional group designed to support graduate students conducting advanced research in machine learning, robotics, and neural networks. We facilitate high-level academic discussions, host guest lectures from world-renowned AI researchers, and organize paper reading groups to keep members at the cutting edge of the field. AIGSA serves as a bridge between graduate students and faculty, fostering a collaborative research environment that encourages interdisciplinary innovation and helps members prepare for careers in high-level industrial R&D or academic positions."
+    },
+    {
+      "id": 55,
+      "image": "7.png",
+      "club_name": "Comets for Community Service",
+      "body": "Comets for Community Service is a dedicated volunteer organization that connects UTD students with impactful service opportunities throughout the Dallas-Fort Worth area. We partner with a diverse range of local non-profits, including food banks, animal shelters, and environmental conservation groups, to organize weekly volunteer events. Our goal is to foster a lifelong commitment to service and social responsibility among students, providing them with a platform to make a tangible difference in their community while developing leadership skills and building meaningful connections with their peers through shared altruistic efforts."
+    },
+    {
+      "id": 56,
+      "image": "8.png",
+      "club_name": "Financial Management Association",
+      "body": "The Financial Management Association (FMA) at UTD is a professional student organization focused on preparing students for successful careers in corporate finance, investment banking, and wealth management. We host frequent workshops on financial modeling, valuation techniques, and market analysis, alongside networking events with finance professionals and recruiters. FMA provides members with the practical tools and industry insights needed to navigate the competitive financial sector, helping students bridge the gap between classroom theory and real-world application while fostering a community of ambitious, like-minded individuals interested in the global markets."
+    },
+    {
+      "id": 57,
+      "image": "9.jpg",
+      "club_name": "UTD Pre-Law Society",
+      "body": "The UTD Pre-Law Society is a comprehensive resource for students from all majors who are considering a future career in the legal profession. We offer a wealth of information on the law school application process, including LSAT preparation workshops, personal statement reviews, and law school fair coordination. Our members benefit from guest lectures by practicing attorneys, judges, and law school admissions officers, providing them with a realistic look at the legal field. We strive to build a community of informed, ethical, and well-prepared future law students through professional development and peer networking."
+    },
+    {
+      "id": 58,
+      "image": "10.png",
+      "club_name": "American Society of Mechanical Engineers (ASME)",
+      "body": "The UTD chapter of ASME is a professional society that supports students interested in the field of mechanical engineering through technical projects, professional development, and community building. We provide members with opportunities to work on hands-on engineering challenges, such as our human-powered vehicle and robotics projects, where students can apply their academic knowledge to real-world design and manufacturing problems. ASME also hosts corporate networking events and facility tours, helping students gain a deeper understanding of the diverse career paths available within the mechanical engineering industry and building a strong professional network."
+    },
+    {
+      "id": 59,
+      "image": "11.jpg",
+      "club_name": "Criminology Student Association",
+      "body": "The Criminology Student Association (CSA) at UTD is a community-focused organization for students interested in criminal justice, forensics, and legal studies. We offer members unique opportunities to engage with professionals in the field, including police officers, forensic scientists, and legal experts, through guest speaker events and field trips to local agencies. CSA provides a platform for discussing current issues in the justice system, exploring various career paths, and connecting with faculty and peers. Our goal is to help students broaden their understanding of criminology and prepare for impactful careers in public safety and law."
+    },
+    {
+      "id": 60,
+      "image": "12.jpg",
+      "club_name": "Neuroscience Student Association",
+      "body": "The Neuroscience Student Association (NSA) at UTD is dedicated to supporting students interested in the study of the brain and nervous system. We provide a collaborative environment where members can share information about research opportunities, attend lectures by leading neuroscientists, and participate in brain-focused community outreach programs. Whether you are interested in clinical medicine, cognitive psychology, or neural engineering, NSA offers resources and mentorship to help you succeed in the interdisciplinary field of neuroscience. Join us to explore the complexities of the mind and build a network with fellow students and faculty experts."
+    },
+    {
+      "id": 61,
+      "image": "1.png",
+      "club_name": "Student Government",
+      "body": "UTD Student Government (SG) is the official representative body for the student population, serving as a liaison between the student body and the university administration. Our members work tirelessly to advocate for student interests, manage student organization funding, and implement campus-wide initiatives that improve the UTD experience. By participating in SG, students gain invaluable experience in leadership, public policy, and organizational management while making a real impact on university governance. We are committed to fostering a transparent and inclusive campus environment where every student's voice can be heard and acted upon."
+    }
+  ]
+}
