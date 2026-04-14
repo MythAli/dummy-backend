@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT;
-
+// for pushing
 app.use(
   cors({
     origin: "http://localhost:3000",
