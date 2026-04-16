@@ -1,44 +1,73 @@
-const jwt = require("jsonwebtoken");
-require("dotenv").config();
 const { fetchData } = require("../../db/main.js");
+const { UserType } = require("../../helpers/constants.js");
 
 const verifyHandler = async (req, res) => {
-  const authHeader = req.headers.authorization;
-  const token = authHeader && authHeader.split(" ")[1];
-
-  if (!token) return res.status(401).json({ message: "No token provided" });
-
   try {
-    // 1. Verify the token
-    const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
-    const userEmail = decoded.email;
+    const { email, userType } = req.user;
 
-    // 2. Find the user (Using parameterized query to prevent SQL Injection)
-    const dbData = await fetchData(
-      `SELECT first_name, last_name FROM users WHERE email='${userEmail}';`,
-    );
-    
-    if (dbData.rows.length === 0) {
-      return res.status(404).json({ message: "User not found" });
+    // Determine which table to query and what data to get
+    let query;
+    let displayName;
+
+    if (userType === UserType.STUDENT) {
+      // Query for Student names
+      query = `SELECT * FROM student_users WHERE email = $1`;
+      const dbData = await fetchData(query, [email]);
+
+      if (dbData.rows.length === 0)
+        return res.status(404).json({ message: "Student not found" });
+
+      const user = dbData.rows[0];
+      const studentId = user.id;
+
+      const first =
+        user.first_name.charAt(0).toUpperCase() + user.first_name.slice(1);
+      const last =
+        user.last_name.charAt(0).toUpperCase() + user.last_name.slice(1);
+      displayName = `${first} ${last}`;
+
+      // Fetch Favorite Club IDs
+      const favsRes = await fetchData(
+        `SELECT club_id FROM student_favorite_clubs WHERE student_id = $1`,
+        [studentId],
+      );
+      const favoriteClubs = favsRes.rows.map((row) => row.club_id);
+
+      // Fetch Attending Event IDs
+      const eventsRes = await fetchData(
+        `SELECT event_id FROM student_event_attendance WHERE student_id = $1`,
+        [studentId],
+      );
+      const attendingEvents = eventsRes.rows.map((row) => row.event_id);
+
+      res.status(200).json({
+        authenticated: true,
+        name: displayName,
+        email,
+        userType,
+        favorites: favoriteClubs, // Array of IDs: [1, 5, 12]
+        attending: attendingEvents, // Array of IDs: [101, 105]
+      });
+    } else if (userType === UserType.CLUB) {
+      // Query for Club name
+      query = `SELECT club_name FROM club_users WHERE email = $1`;
+      const dbData = await fetchData(query, [email]);
+
+      if (dbData.rows.length === 0)
+        return res.status(404).json({ message: "Club user not found" });
+
+      displayName = dbData.rows[0].club_name;
+
+      res.status(200).json({
+        authenticated: true,
+        name: displayName,
+        email,
+        userType,
+      });
     }
-
-    const user = dbData.rows[0];
-
-    // 3. Format the name
-    const firstName =
-      user.first_name.charAt(0).toUpperCase() + user.first_name.slice(1);
-    const lastName =
-      user.last_name.charAt(0).toUpperCase() + user.last_name.slice(1);
-    const fullName = `${firstName} ${lastName}`;
-
-    // 4. Send back the data
-    res.status(200).json({
-      authenticated: true,
-      name: fullName,
-    });
   } catch (error) {
-    // jwt.verify throws error if expired or tampered with
-    res.status(401).json({ message: "Invalid or expired token" });
+    console.error("Verify Error:", error);
+    res.status(500).json({ message: "Internal server error" });
   }
 };
 

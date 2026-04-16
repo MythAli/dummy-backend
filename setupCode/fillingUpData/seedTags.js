@@ -1,5 +1,7 @@
+// ! ONLY USE AFTER THE CLUBS HAVE BEEN ADDED TO THE DATABASE
+
 const fs = require("fs");
-const { changeData } = require("../db/main");
+const { changeData } = require("../../db/main");
 
 async function seedTagsAndMappings() {
   try {

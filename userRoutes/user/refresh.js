@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
+const { userType } = require("../../helpers/constants.js");
 
 const refreshHandler = (req, res) => {
   const refreshToken = req.body.token;
@@ -18,13 +19,15 @@ const refreshHandler = (req, res) => {
 
     // Generate a new access token using the email from the decoded refresh token
     // This matches the payload structure in your login.js
+    const { email, userType } = decoded;
+
     const accessToken = jwt.sign(
-      { email: decoded.email },
+      { email, userType },
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: "5m" },
     );
 
-    res.json({ accessToken });
+    res.json({ accessToken, userType });
   });
 };
 
