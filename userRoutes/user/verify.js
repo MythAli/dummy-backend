@@ -27,26 +27,40 @@ const verifyHandler = async (req, res) => {
       displayName = `${first} ${last}`;
 
       // Fetch Favorite Club IDs
-      const favsRes = await fetchData(
+      const favoritesIDsRes = await fetchData(
         `SELECT club_id FROM student_favorite_clubs WHERE student_id = $1`,
         [studentId],
       );
-      const favoriteClubs = favsRes.rows.map((row) => row.club_id);
+      const favoritesIDs = favoritesIDsRes.rows.map((row) => row.club_id);
+
+      const favoritesClubsQuery = "SELECT * FROM clubs WHERE id = ANY($1)";
+
+      const favoriteClubsRes = await fetchData(favoritesClubsQuery, [
+        favoritesIDs,
+      ]);
 
       // Fetch Attending Event IDs
-      const eventsRes = await fetchData(
+      const eventsIDsRes = await fetchData(
         `SELECT event_id FROM student_event_attendance WHERE student_id = $1`,
         [studentId],
       );
-      const attendingEvents = eventsRes.rows.map((row) => row.event_id);
+      const eventsIDs = eventsIDsRes.rows.map((row) => row.event_id);
+
+      const eventsQuery = "SELECT * FROM events WHERE id = ANY($1)";
+
+      const eventsRes = await fetchData(eventsQuery, [eventsIDs]);
 
       res.status(200).json({
         authenticated: true,
         name: displayName,
         email,
         userType,
-        favorites: favoriteClubs, // Array of IDs: [1, 5, 12]
-        attending: attendingEvents, // Array of IDs: [101, 105]
+        calendarStart: user.calendar_start
+          ? user.calendar_start.toISOString()
+          : null,
+        calendarEnd: user.calendar_end ? user.calendar_end.toISOString() : null,
+        favorites: favoriteClubsRes.rows, // Array of Clubs
+        attending: eventsRes.rows, // Array of Events
       });
     } else if (userType === UserType.CLUB) {
       // Query for Club name
