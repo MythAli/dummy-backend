@@ -24,7 +24,7 @@ const refreshHandler = (req, res) => {
     const accessToken = jwt.sign(
       { email, userType },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "5m" },
+      { expiresIn: "60m" },
     );
 
     res.json({ accessToken, userType });

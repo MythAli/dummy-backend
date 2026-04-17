@@ -51,6 +51,7 @@ const verifyHandler = async (req, res) => {
       const eventsRes = await fetchData(eventsQuery, [eventsIDs]);
 
       res.status(200).json({
+        id: studentId,
         authenticated: true,
         name: displayName,
         email,
