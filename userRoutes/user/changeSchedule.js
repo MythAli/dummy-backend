@@ -1,9 +1,5 @@
 const { changeData } = require("../../db/main.js");
-
-// Since you're matching this against the Constellation club events (which have specific times),
-// having the student's range as a DATE makes the "matching" logic much easier.
-
-// For example, you can eventually write a query to find events that fall within a student's free
+// Write a query to find events that fall within a student's free
 // date range without worrying about whether the student's "start time" was 12:00 AM or 8:00 AM:
 
 // `SELECT * FROM events

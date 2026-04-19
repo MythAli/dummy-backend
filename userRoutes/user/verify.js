@@ -3,7 +3,7 @@ const { UserType } = require("../../helpers/constants.js");
 
 const verifyHandler = async (req, res) => {
   try {
-    const { email, userType } = req.user;
+    const { email, userType, id } = req.user;
 
     // Determine which table to query and what data to get
     let query;
@@ -11,14 +11,14 @@ const verifyHandler = async (req, res) => {
 
     if (userType === UserType.STUDENT) {
       // Query for Student names
-      query = `SELECT * FROM student_users WHERE email = $1`;
+      query = `SELECT first_name, last_name FROM student_users WHERE email = $1`;
       const dbData = await fetchData(query, [email]);
 
-      if (dbData.rows.length === 0)
+      if (dbData.rows.length === 0) {
         return res.status(404).json({ message: "Student not found" });
+      }
 
       const user = dbData.rows[0];
-      const studentId = user.id;
 
       const first =
         user.first_name.charAt(0).toUpperCase() + user.first_name.slice(1);
@@ -27,41 +27,41 @@ const verifyHandler = async (req, res) => {
       displayName = `${first} ${last}`;
 
       // Fetch Favorite Club IDs
-      const favoritesIDsRes = await fetchData(
-        `SELECT club_id FROM student_favorite_clubs WHERE student_id = $1`,
-        [studentId],
-      );
-      const favoritesIDs = favoritesIDsRes.rows.map((row) => row.club_id);
+      // const favoritesIDsRes = await fetchData(
+      //   `SELECT club_id FROM student_favorite_clubs WHERE student_id = $1`,
+      //   [studentId],
+      // );
+      // const favoritesIDs = favoritesIDsRes.rows.map((row) => row.club_id);
 
-      const favoritesClubsQuery = "SELECT * FROM clubs WHERE id = ANY($1)";
+      // const favoritesClubsQuery = "SELECT * FROM clubs WHERE id = ANY($1)";
 
-      const favoriteClubsRes = await fetchData(favoritesClubsQuery, [
-        favoritesIDs,
-      ]);
+      // const favoriteClubsRes = await fetchData(favoritesClubsQuery, [
+      //   favoritesIDs,
+      // ]);
 
-      // Fetch Attending Event IDs
-      const eventsIDsRes = await fetchData(
-        `SELECT event_id FROM student_event_attendance WHERE student_id = $1`,
-        [studentId],
-      );
-      const eventsIDs = eventsIDsRes.rows.map((row) => row.event_id);
+      // // Fetch Attending Event IDs
+      // const eventsIDsRes = await fetchData(
+      //   `SELECT event_id FROM student_event_attendance WHERE student_id = $1`,
+      //   [studentId],
+      // );
+      // const eventsIDs = eventsIDsRes.rows.map((row) => row.event_id);
 
-      const eventsQuery = "SELECT * FROM events WHERE id = ANY($1)";
+      // const eventsQuery = "SELECT * FROM events WHERE id = ANY($1)";
 
-      const eventsRes = await fetchData(eventsQuery, [eventsIDs]);
+      // const eventsRes = await fetchData(eventsQuery, [eventsIDs]);
 
       res.status(200).json({
-        id: studentId,
+        id,
         authenticated: true,
         name: displayName,
         email,
         userType,
-        calendarStart: user.calendar_start
-          ? user.calendar_start.toISOString()
-          : null,
-        calendarEnd: user.calendar_end ? user.calendar_end.toISOString() : null,
-        favorites: favoriteClubsRes.rows, // Array of Clubs
-        attending: eventsRes.rows, // Array of Events
+        // calendarStart: user.calendar_start
+        //   ? user.calendar_start.toISOString()
+        //   : null,
+        // calendarEnd: user.calendar_end ? user.calendar_end.toISOString() : null,
+        // favorites: favoriteClubsRes.rows, // Array of Clubs
+        // attending: eventsRes.rows, // Array of Events
       });
     } else if (userType === UserType.CLUB) {
       // Query for Club name
@@ -73,7 +73,14 @@ const verifyHandler = async (req, res) => {
 
       displayName = dbData.rows[0].club_name;
 
+      query = `SELECT id FROM clubs WHERE owner_id = $1`;
+      const club = await fetchData(query, [id]);
+
+      const clubId = club.rows[0].id;
+
       res.status(200).json({
+        id,
+        clubId,
         authenticated: true,
         name: displayName,
         email,
